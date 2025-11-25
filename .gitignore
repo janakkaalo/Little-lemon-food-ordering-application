@@ -1,0 +1,38 @@
+# Ignore all files ending with .log
+*.log
+
+# Ignore all files ending with .tmp
+*.tmp
+
+# Ignore a specific file
+my_secret_config.ini
+
+# Ignore the 'temp/' directory and all its contents
+temp/
+
+# Ignore the 'build/' directory and all its contents
+build/
+
+# Ignore files in the 'node_modules/' directory (common for Node.js projects)
+node_modules/
+
+# Ignore a specific file within a directory
+config/local_settings.py
+
+# Exception: don't ignore important.log even if other .log files are ignored
+!important.log
+
+# Ignore all .DS_Store files (common on macOS)
+.DS_Store
+
+# Ignore editor swap files (e.g., Vim)
+*~
+*.swp
+*.swo
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment variables files
+.env
